@@ -1,0 +1,50 @@
+.todo-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin-top: 25px;
+  }
+  
+  .todo-list li {
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding around each list item */
+    border-bottom: 1px solid #ddd; /* Bottom border for separation */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .todo-list li:hover {
+    background-color: white; /* Change background on hover */
+  }
+  
+  .todo-text {
+    flex-grow: 1; /* Allow text to grow and fill space */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  .todo-text.done {
+    text-decoration: line-through; /* Line through for completed tasks */
+    color: #adadad; /* Change text color for completed tasks */
+  }
+  
+  .delete-btn {
+    margin-left: 10px; /* Space between text and button */
+    padding: 5px 10px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #e74c3c; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+
+@media only screen and(max-width:600px){
+    .todo-list {
+        width: 300px;
+    }
+}
+  

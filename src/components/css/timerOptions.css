@@ -1,0 +1,47 @@
+.timer-opt-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: 0.5;
+    margin-bottom: 50px;
+    padding: 20px 5px;
+}
+
+.time{
+    margin: 0;
+}
+
+.btn-list{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.btn-choice{
+    padding: 5px 8px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-choice:hover{
+    border: 1px solid white;
+}
+
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 400px;
+    }
+}

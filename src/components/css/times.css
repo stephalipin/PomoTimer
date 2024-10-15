@@ -1,0 +1,24 @@
+.timer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.time{
+    font-size: 6rem;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn{
+    padding: 8px 26px;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+
+}
